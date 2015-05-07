@@ -1,0 +1,48 @@
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<!-- The main content view -->
+<RelativeLayout
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <include
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/tool_bar">
+    </include>
+    <TextView
+        android:id="@+id/loginStatus"
+        android:text="Logged In as"
+        android:padding="10dp"
+        android:background="@color/els_orange"
+        android:textColor="@color/white_bg"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content" />
+    <WebView android:id="@+id/webView"
+        android:layout_below="@id/loginStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+<!-- The navigation drawer -->
+<ListView android:id="@+id/left_drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp"
+    android:background="#111"/>
+</android.support.v4.widget.DrawerLayout>

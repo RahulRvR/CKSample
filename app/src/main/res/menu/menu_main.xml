@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_org"
+        android:icon="@mipmap/ic_action_org"
+        android:title="@string/action_org"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_books" android:title="@string/action_books"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_journals" android:title="@string/action_journals"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_multiMedia_images" android:title="@string/action_multiMedia_images"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_multiMedia_videos" android:title="@string/action_multiMedia_video"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_drug_monograph" android:title="@string/action_drugMonograph"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_patientEdu" android:title="@string/action_patientEdu"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_medLine" android:title="@string/action_medLine"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_patientHandout" android:title="@string/action_patientHandout"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_clinicalTrial" android:title="@string/action_clinicalTrial"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_medicalTopic" android:title="@string/action_medicalTopic"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_guidesTechniques" android:title="@string/action_guidesTechniques"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_medicalProcedure" android:title="@string/action_MedicalProcedure"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_saved_content" android:title="@string/action_savedContent"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+</menu>

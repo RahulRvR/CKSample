@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_red">#FF0000</color>
+    <color name="els_orange">#E4811E</color>
+    <color name="els_blue">#417395</color>
+    <color name="els_orange_dark">#CE762F</color>
+    <color name="els_blue_dark">#355D78</color>
+    <color name="warning_red">#de4e0e</color>
+    <color name="white_bg">#fcfcfc</color>
+    <color name="light_gray1">#f7f7f7</color>
+    <color name="light_gray2">#e6e6e6</color>
+    <color name="light_gray3">#dbdbdb</color>
+    <color name="light_gray4">#cccccc</color>
+    <color name="mid_gray1">#acacac</color>
+    <color name="mid_gray2">#898989</color>
+    <color name="dark_gray1">#696969</color>
+    <color name="dark_gray2">#54565a</color>
+    <color name="dark_gray3">#37383b</color>
+    <color name="highlight_orange">#f7dcae</color>
+
+    <color name="light_box_background">#BF000000</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="interaction_severe"  >@color/warning_red</color>
+    <color name="interaction_major"   >#cc691f</color>
+    <color name="interaction_moderate">#d8a928</color>
+    <color name="interaction_minor"   >#007397</color>
+
+    <color name="home_blue">#73417395</color>
+    <color name="home_orange">#73e4811e</color>
+    <color name="home_translucent_white">#73FFFFFF</color>
+
+    <color name="side_menu_background">#3e3a36</color>
+    <color name="side_menu_unselected_text">#fff</color>
+
+    <color name="view_interactions_button_background">#121E26</color>
+
+    <!-- Adverse Drug Report -->
+    <color name="adr_text_gray">#777A80</color>
+    <color name="adr_title_background">#B3121E26</color>
+    <color name="adr_report_sortfilter_background">#11000000</color>
+    <color name="adr_details_title_color">#474747</color>
+    <color name="adr_details_documentation_rank_color">#58595E</color>
+    <color name="adr_details_monograph_button_text_color">#FAF9F7</color>
+    <color name="adr_filters_reset_button_color">#E38125</color>
+
+
+    <!-- Drug ID -->
+    <color name="drug_id_tab_background">#5f5851</color>
+    <color name="drug_id_tab_background_selected">#433e38</color>
+    <color name="drug_id_tab_background_pressed">#66433e38</color>
+
+    <color name="drug_id_black">#3D3F3A</color>
+    <color name="drug_id_blue">#2F80C6</color>
+    <color name="drug_id_green">#27AE60</color>
+    <color name="drug_id_gray">#A2AEA7</color>
+    <color name="drug_id_brown">#7A4C16</color>
+    <color name="drug_id_orange">#DB8C1D</color>
+    <color name="drug_id_red">#D3221C</color>
+    <color name="drug_id_pink">#EC9B90</color>
+    <color name="drug_id_yellow">#E8D919</color>
+    <color name="drug_id_purple">#4927AE</color>
+    <color name="drug_id_turquoise">#27AE9E</color>
+    <color name="drug_id_white">#EFF5F1</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="colorPrimary">@color/els_blue</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Action Bar Styles -->
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/els_orange</item>
+        <item name="android:textColorPrimary">@color/els_blue</item>
+    </style>
+
+    <style name="Theme.UserDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:actionBarStyle">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>
